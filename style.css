@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.containers{
+    /* width: 440px;
+    margin: 0 auto; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+h1{
+    margin-bottom: 16px;
+    display: flex;
+    justify-content: center;
+}
+
+label, input { 
+    display: block;
+}
+
+input{
+    margin-bottom: 8px;
+}
+
+input, button, label {
+    width: 250px;
+    font-size: 18px;
+}
